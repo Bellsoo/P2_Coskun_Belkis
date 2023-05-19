@@ -210,6 +210,208 @@ input:focus {
 
 
 
+/* HEBERGEMENTS A MARSEILLE */
+
+h2 {
+    margin-left: 10px;
+}
+
+.hebergement-populaire-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hebergement-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    width: 63%;
+
+}
+
+.hebergement-container-card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.hebergement-card {
+    width: 27%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 0px #d9d9d9;
+
+
+}
+
+
+.image-hebergement-container-card {
+    width: auto;
+    margin: 3px;
+
+}
+
+.image-hebergement-card {
+    height: 120px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.description-stars-heb {
+    padding-left: 15px;
+
+}
+
+.titre-hebergement-card {
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.prix-hebergement-card {
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.stars-heb {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 3px;
+    margin-bottom: 7px;
+}
+
+.etoiles {
+    color: #0065FC;
+}
+
+.etoilegrise {
+    color: #f2f2f2;
+}
+
+.more {
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+/* LES PLUS POPULAIRES */
+
+.populaire-container {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    align-items: center;
+
+}
+
+
+
+
+.populaire-title-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.title-deux {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.logo-chart {
+    margin-top: 40px;
+    padding-right: 20px;
+    color: #0065FC;
+}
+
+.populaire-container-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.populaire-left {
+    display: flex;
+}
+
+.populaire-card {
+    display: flex;
+    width: 86%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 0px #d9d9d9;
+    margin-bottom: 35px;
+}
+
+
+
+.image-populaire-container-card {
+    width: 150px;
+    height: 140px;
+    margin: 4px;
+    border-radius: 15px;
+
+}
+
+
+.image-populaire-card {
+    height: 140px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.description-stars-popu {
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.description-popu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    width: 50%;
+}
+
+.titre-populaire-card {
+    font-weight: bold;
+}
+
+.prix-populaire-card {
+    margin-top: -10px;
+}
+
+.stars-popu {
+    display: flex;
+    margin-bottom: 10px;
+
+
+}
+
+
+
+
+
 
 
 
