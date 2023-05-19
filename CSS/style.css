@@ -499,6 +499,132 @@ h2 {
 
 
 
+/* RESPONSIVE */
+
+
+
+/* RESPONSIVE POUR TABLETTE */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .navigation ul li {
+        padding-top: 40px;
+    }
+
+    .loupe {
+        display: none;
+    }
+
+    .filtre {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+        flex-wrap: nowrap;
+        margin-bottom: 0px;
+    }
+
+    .filtreindividuel {
+        padding: 10px 10px 10px 5px;
+        font-size: 0.9em;
+        font-weight: bolder;
+
+    }
+
+    .logo-filtre {
+        margin-right: 10px;
+    }
+
+    .name {
+        font-weight: 600;
+    }
+
+    .hebergement-populaire-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .hebergement-container {
+        width: 98%;
+        margin-bottom: 40px;
+    }
+
+    .hebergement-card {
+        height: min-content;
+
+    }
+
+    .image-hebergement-card {
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .description-stars-heb {
+        font-size: 0.7em;
+    }
+
+    .more {
+        display: flex;
+
+    }
+
+    .populaire-container {
+        width: 100%;
+        display: flex;
+        align-items: stretch;
+    }
+
+    .h2 {
+        margin-left: 20px;
+    }
+
+    .logo-chart {
+        margin-right: 20px;
+    }
+
+    .populaire-container-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: auto;
+    }
+
+    .populaire-card {
+        width: 27%;
+    }
+
+    .image-populaire-container-card {
+        width: auto;
+        height: 111px;
+    }
+
+    .image-populaire-card {
+        width: 70px;
+        height: 111px;
+        object-fit: cover;
+    }
+
+    .description-popu {
+        font-size: 0.7em;
+    }
+
+    .image-activities-card {
+        height: 180px;
+        object-fit: cover;
+    }
+
+    .description-activities {
+        margin: 8px;
+        font-size: 0.8em;
+        font-weight: 700;
+    }
+
+}
+
+
+
 
 
 
